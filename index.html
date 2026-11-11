@@ -8,4 +8,26 @@
 <article class="card"><img src="https://static.wixstatic.com/media/12754d_688edca156d04672ba33a276ce4367f5~mv2.png/v1/fill/w_206%2Ch_206%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/nailss.png" alt="Nail service"><div class="cardbody"><h3>Nail Service</h3><p>Dip, acrylic, and Gel-X nail services with Taylen.</p><a class="textlink" href="memberships-services.html#nails">Learn more →</a></div></article>
 <article class="card"><img src="https://static.wixstatic.com/media/12754d_ec842e58125b4612a89386b02d3e66dd~mv2.png/v1/fill/w_206%2Ch_206%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/eyess.png" alt="Lash service"><div class="cardbody"><h3>Lash Service</h3><p>Lash extensions, lash lifts and tints, and more.</p><a class="textlink" href="memberships-services.html#lashes">Learn more →</a></div></article></div><p style="text-align:center;margin-top:32px"><a class="btn" href="memberships-services.html">See All Services</a></p></section>
 <section class="darkband"><div class="section"><div class="review">“They are so nice here and the rooms and beds are super clean! Highly recommend!”<small>— AMBER, CUSTOMER REVIEW</small></div></div></section></main>
-<footer class="footer"><div class="footerinner"><div><h3>Tan Dat Wildcat</h3><p>Luxury Salon<br>Godley, Texas</p></div><div><h3>Visit Us</h3><p>8841 Hwy 171, Suite # C&amp;D<br>Godley, TX 76044<br><a href="tel:6828461800">682-846-1800</a><br><a href="mailto:tandatwildcat@gmail.com">tandatwildcat@gmail.com</a></p></div><div><h3>Opening Hours</h3><p>Monday – Friday: 11:00am – 6:00pm<br>Saturday: 10:00am – 2:00pm<br>Sunday: CLOSED</p></div></div><div class="copyright">© Tan Dat Wildcat · Luxury Salon</div></footer></body></html>
+<footer class="footer"><div class="footerinner"><div><h3>Tan Dat Wildcat</h3><p>Luxury Salon<br>Godley, Texas</p></div><div><h3>Visit Us</h3><p>8841 Hwy 171, Suite # C&amp;D<br>Godley, TX 76044<br><a href="tel:6828461800">682-846-1800</a><br><a href="mailto:tandatwildcat@gmail.com">tandatwildcat@gmail.com</a></p></div><div><h3>Opening Hours</h3><p>Monday – Friday: 11:00am – 6:00pm<br>Saturday: 10:00am – 2:00pm<br>Sunday: CLOSED</p></div></div><div class="copyright">© Tan Dat Wildcat · Luxury Salon</div></footer>
+<!-- $45 Rapid Spray Tan welcome pop-up -->
+<div class="promo-modal" id="sprayTanPopup" aria-label="$45 Rapid Spray Tan promotion" aria-modal="true" role="dialog" hidden>
+  <div class="promo-backdrop" data-close-popup></div>
+  <div class="promo-modal-panel">
+    <a class="promo-image-link" href="https://book.squareup.com/appointments/hffvk061p98dm1/location/LCB4GY59TK962/services/MVYLP3YXWIDDW2WWPPCT5UGT" target="_blank" rel="noopener" aria-label="Book your $45 rapid spray tan appointment">
+      <img src="assets/rapid-spray-tan-popup.png" alt="Tan Dat Wildcat $45 Rapid Spray Tans. Book your appointment today." />
+    </a>
+    <button class="promo-close" type="button" aria-label="Close promotion" data-close-popup>×</button>
+  </div>
+</div>
+<script>
+(function(){
+  const popup=document.getElementById('sprayTanPopup');
+  if(!popup) return;
+  const key='tanDatSprayPopupSeen';
+  if(!sessionStorage.getItem(key)){ popup.hidden=false; document.body.classList.add('popup-open'); }
+  function closePopup(){ popup.hidden=true; document.body.classList.remove('popup-open'); sessionStorage.setItem(key,'1'); }
+  popup.querySelectorAll('[data-close-popup]').forEach(el=>el.addEventListener('click',closePopup));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!popup.hidden) closePopup();});
+})();
+</script>
+</body></html>
