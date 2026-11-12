@@ -1,0 +1,50 @@
+<style id="tan-dat-four-service-cards">
+.cards {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+  align-items: stretch !important;
+}
+.cards > .card {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  aspect-ratio: 1 / 1 !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+}
+.cards > .card > img {
+  display: block !important;
+  width: 100% !important;
+  height: 46% !important;
+  min-height: 0 !important;
+  flex: 0 0 46% !important;
+  object-fit: cover !important;
+}
+.cards > .card .cardbody,
+.cards > .card .jewelry-copy {
+  flex: 1 1 auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 12px !important;
+  box-sizing: border-box !important;
+}
+.cards > .card .cardbody h3,
+.cards > .card .jewelry-copy h2 { margin: 0 0 8px !important; }
+.cards > .card .cardbody p,
+.cards > .card .jewelry-copy p { margin: 0 0 8px !important; }
+.cards > .card .jewelry-copy .eyebrow { margin-bottom: 5px !important; }
+.cards > .card .jewelry-copy h2 { font-size: 1.25rem !important; }
+.cards > .card .jewelry-copy p { font-size: .85rem !important; }
+@media (min-width: 541px) and (max-width: 800px) {
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+}
+@media (max-width: 540px) {
+  .cards { grid-template-columns: 1fr !important; }
+}
+</style>
