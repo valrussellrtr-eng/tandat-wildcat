@@ -31,3 +31,15 @@ body.popup-open{overflow:hidden}
 .membership-pricing-poster{background:#21172a;padding:24px 20px 34px;text-align:center}
 .membership-pricing-poster img{display:block;width:min(694px,100%);height:auto;margin:0 auto;object-fit:contain;box-shadow:0 12px 36px #0005}
 @media(max-width:540px){.promo-modal{padding:10px}.promo-modal-panel{width:min(92vw,520px)}.promo-close{top:5px;right:5px;width:36px;height:36px;font-size:25px}.membership-promo-banner{padding:12px 10px 6px}.membership-pricing-poster{padding:16px 12px 22px}}
+
+/* Homepage additions: permanent jewelry, photo slideshow, map and review section */
+.jewelry-feature{padding-top:64px;padding-bottom:64px}
+.jewelry-card{display:grid;grid-template-columns:1fr 1fr;align-items:center;background:#fff;box-shadow:0 12px 38px #2b1c2b12;overflow:hidden}
+.jewelry-card>img{width:100%;height:100%;min-height:300px;object-fit:cover}
+.jewelry-copy{padding:clamp(26px,5vw,58px)}.jewelry-copy h2{font:600 clamp(2rem,4vw,3rem)/1.2 'Playfair Display',serif;margin:10px 0 14px}.jewelry-copy p{color:var(--muted)}
+.photo-slideshow{position:relative;max-width:900px;margin:0 auto;aspect-ratio:1.94;background:#100c14;overflow:hidden;box-shadow:0 12px 34px #0004}
+.photo-slideshow .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .65s ease}.photo-slideshow .slide.active{opacity:1}
+.slide-control{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border:1px solid #e0c17b;border-radius:50%;background:#17111fce;color:#fff;font-size:30px;line-height:1;cursor:pointer}.slide-control.prev{left:16px}.slide-control.next{right:16px}
+.slide-dots{position:absolute;bottom:14px;left:0;right:0;display:flex;justify-content:center;gap:9px}.slide-dot{width:9px;height:9px;border:1px solid #fff;border-radius:50%;background:#ffffff70;padding:0;cursor:pointer}.slide-dot.active{background:var(--gold);transform:scale(1.25)}
+.map-section{padding-top:66px;padding-bottom:76px}.map-frame{max-width:1000px;margin:0 auto;height:380px;box-shadow:0 12px 34px #2b1c2b18}.map-frame iframe{width:100%;height:100%;border:0}.review-link{text-align:center;margin:18px 0 0}
+@media(max-width:700px){.jewelry-card{grid-template-columns:1fr}.jewelry-card>img{min-height:220px;max-height:290px}.photo-slideshow{aspect-ratio:1.35}.slide-control{width:38px;height:38px}.map-frame{height:310px}}

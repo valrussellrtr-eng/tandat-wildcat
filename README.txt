@@ -24,3 +24,5 @@ IMPORTANT
 - Booking links currently use the public Square booking pages found on the original website. Please test each booking link before launch.
 - This is a ready-to-publish static website, not a Silex visual-editor project. Editing text or layout later requires changing HTML/CSS or using a different visual editor that supports importing existing websites.
 - Do not change the custom domain DNS until the GitHub Pages preview is approved. When ready, configure the custom domain in GitHub Pages and update only the required DNS records at Wix, preserving any email/MX records.
+
+Homepage updates in this package: Permanent Jewelry feature, rotating photo slideshow, embedded Google map/directions, and customer review section. The original Wix page publicly exposed one customer review quote (Amber); no additional review text was invented. Homepage video has intentionally been left out until a video source is available.
