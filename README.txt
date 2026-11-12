@@ -25,4 +25,11 @@ IMPORTANT
 - This is a ready-to-publish static website, not a Silex visual-editor project. Editing text or layout later requires changing HTML/CSS or using a different visual editor that supports importing existing websites.
 - Do not change the custom domain DNS until the GitHub Pages preview is approved. When ready, configure the custom domain in GitHub Pages and update only the required DNS records at Wix, preserving any email/MX records.
 
-Homepage updates in this package: Permanent Jewelry feature, rotating photo slideshow, embedded Google map/directions, and customer review section. The original Wix page publicly exposed one customer review quote (Amber); no additional review text was invented. Homepage video has intentionally been left out until a video source is available.
+Homepage updates in this package: four service cards displayed together (Rapid Spray Tan, Nail Service, Lash Service, and Permanent Jewelry), only the first homepage gallery photo retained, a smaller $45 Rapid Spray Tan pop-up shown on the homepage only, embedded Google map/directions, and customer review section. The original Wix page publicly exposed one customer review quote (Amber); no additional review text was invented. Homepage video has intentionally been left out until a video source is available.
+
+
+LATEST HOMEPAGE CORRECTIONS
+- Permanent Jewelry is the fourth card in the homepage Our Services row, not a separate homepage section.
+- The homepage gallery contains only its first original photo; the rotating slideshow and extra photos have been removed.
+- The $45 promotion pop-up has been reduced in size and remains on the homepage only.
+- The Memberships & Services page retains its membership pricing image at the top and both tanning-bed photos flanking the bed descriptions.
